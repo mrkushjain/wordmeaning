@@ -6,7 +6,9 @@
 #define DEFPARTS 2
 void output(char defs[][LINELEN])
 {
+	printf("<table>\n");
 	printf("\n\r<tr><td class='heading'>%s</td><td class='defination'>%s</td></tr>",defs[0],defs[1]);
+	printf("</table>")
 }
 void test(char *fname)
 {
